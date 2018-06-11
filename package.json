@@ -1,19 +1,28 @@
 {
-  "name": "zst-zk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zst-git/zst-zk.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zst-git/zst-zk/issues"
-  },
-  "homepage": "https://github.com/zst-git/zst-zk#readme"
+    "name": "zst-zk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zst-git/zst-zk.git"
+    },
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-webserver": "*",
+        "gulp-clean-css": "*",
+        "gulp-sass": "*",
+        "gulp-uglify": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-concat": "*"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zst-git/zst-zk/issues"
+    },
+    "homepage": "https://github.com/zst-git/zst-zk#readme"
 }
