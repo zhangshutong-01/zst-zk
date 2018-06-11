@@ -8,8 +8,8 @@ var autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var path = require('path');
 var url = require('url');
-var fs = require('fs')
-    //起服务
+var fs = require('fs');
+//起服务
 gulp.task('server', function() {
     gulp.src('src')
         .pipe(server({
